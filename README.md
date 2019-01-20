@@ -1,8 +1,8 @@
-# cardscript-icons
+# cardscript-assets
 
-> Icon assets for use in docs/tooling.
+> Icon/image assets for use in Cardscript docs/tooling.
 
-## Provenance
+## Icon provenance
 
 Currently a cut-and-paste from Google's Material Design Two-Tone set:
 
@@ -11,20 +11,24 @@ Currently a cut-and-paste from Google's Material Design Two-Tone set:
 
 ## <a name="install"></a>Install
 ```bash
-$ npm install cardscript-icons --save
+$ npm install cardscript-assets --save
 ```
 
 ## Usage
 
 ``` javascript
-const baseIconxPath = require('cardscript-icons')
+const baseAssetPath = require('cardscript-assets')
 ```
 
-## <a name="license"></a>License
+## <a name="license"></a>Licenses
 
-At the moment, just a package containing a subset of Google's [Material Design icons](https://material.io/).
+### Icons
+
+* At the moment, just a package containing a subset of Google's [Material Design icons](https://material.io/).
 
 Please see their [Apache License 2.0](https://github.com/material-components/material-components-android/blob/master/LICENSE) license.
 
+### Everything else
 
+[MIT](https://github.com/wmfs/cardscript-assets/blob/master/LICENSE)
 
