@@ -1,12 +1,14 @@
 {
   "name": "@wmfs/cardscript-assets",
-  "description": "Icon/image assets for use in Cardscript docs/tooling.",
   "version": "0.0.0-semantically-released",
+  "description": "Icon/image assets for use in Cardscript docs/tooling.",
   "author": "West Midlands Fire Service",
+  "homepage": "https://github.com/wmfs/cardscript-assets#readme",
   "keywords": [
     "tymly",
     "cardscript"
   ],
+  "license": "MIT",
   "main": "assets/index.js",
   "repository": {
     "type": "git",
@@ -14,5 +16,13 @@
   },
   "bugs": {
     "url": "https://github.com/wmfs/cardscript-assets/issues"
+  },
+    "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
