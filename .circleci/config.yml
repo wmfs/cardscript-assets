@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:lts
+        environment:
+          TZ: "Europe/London"
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: install
+          command: |
+            npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+            npm install
+      - run:
+          name: release
+          command: npx semantic-release
+workflows:
+  version: 2
+  release:
+    jobs:
+    - build:
+        context: tymly_global
+        filters:
+          branches:
+            only: master
