@@ -23,11 +23,10 @@ workflows:
   version: 2
   release:
     jobs:
-    - build:
-        context:
+      - build:
           context:
             - docker-hub-creds
             - tymly_global
-        filters:
-          branches:
-            only: master
+          filters:
+            branches:
+              only: master
