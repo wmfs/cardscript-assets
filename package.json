@@ -18,7 +18,7 @@
     "url": "https://github.com/wmfs/cardscript-assets/issues"
   },
   "devDependencies": {
-    "conventional-changelog-conventionalcommits": "8.0.0",
+    "conventional-changelog-conventionalcommits": "9.1.0",
     "cz-conventional-changelog": "3.3.0",
     "semantic-release": "19.0.5",
     "@semantic-release/changelog": "6.0.3",
