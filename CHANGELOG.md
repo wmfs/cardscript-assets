@@ -1,3 +1,25 @@
+## [1.0.2](https://github.com/wmfs/cardscript-assets/compare/v1.0.1...v1.0.2) (2026-08-14)
+
+### Bug Fix(es) :bug:
+
+* bump semantic-release ([76ca146](https://github.com/wmfs/cardscript-assets/commit/76ca1468f9722f6974758678bcfa026fb1ea6b8d))
+* update .circleci/config.yml to 2.1 ([f385c5d](https://github.com/wmfs/cardscript-assets/commit/f385c5d7a3c8f8abd6c76c1b687f62b1aabf9c3b))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#38](https://github.com/wmfs/cardscript-assets/issues/38)) ([9f8f2bb](https://github.com/wmfs/cardscript-assets/commit/9f8f2bb79660c4038457f0ec620b7e17aeb0c9e7))
+* **deps-dev:** bump semantic-release from 17.4.2 to 17.4.3 ([7d25749](https://github.com/wmfs/cardscript-assets/commit/7d257497c386b942874361575cd13a89375eee18))
+* **deps-dev:** update dependency @semantic-release/release-notes-generator to v14.1.0 ([2b18d55](https://github.com/wmfs/cardscript-assets/commit/2b18d55fa32595d39ab1a5eb0deb08a94453d520))
+* **deps-dev:** update dependency semantic-release to v19 [security] ([680e121](https://github.com/wmfs/cardscript-assets/commit/680e12176fc3aa97130973aafdfa7a6277577404))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([1494788](https://github.com/wmfs/cardscript-assets/commit/1494788ca5adf2d95544504c4dd1ff73220d288f))
+* **deps-dev:** update semantic-release monorepo ([d80b0d4](https://github.com/wmfs/cardscript-assets/commit/d80b0d4576e072330dfb22b3688256442334344a))
+* **deps-dev:** update semantic-release monorepo ([e3445d5](https://github.com/wmfs/cardscript-assets/commit/e3445d55fe1e0a4c9f5ca1170b9f89e18645e139))
+* update generate notes preset from metahub to angular ([d87f0c5](https://github.com/wmfs/cardscript-assets/commit/d87f0c568b7e7ef8e5630587d3cc1557698303d9))
+
+### Chores :pencil2:
+
+* add renovate config [ch6600] ([5a55e97](https://github.com/wmfs/cardscript-assets/commit/5a55e97a40b1e637135c06c542d446ba20dfff74))
+
 ## [1.0.1](https://github.com/wmfs/cardscript-assets/compare/v1.0.0...v1.0.1) (2021-05-14)
 
 
